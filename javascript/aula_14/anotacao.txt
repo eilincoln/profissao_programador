@@ -1,0 +1,2 @@
+FUNÇÕES:
+É um bloco de código que pode ser exeutado depois. 

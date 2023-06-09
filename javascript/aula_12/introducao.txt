@@ -1,0 +1,35 @@
+Lógica de Programação: 
+
+O que é:
+- Um conjunto de Técnicas e conhecimento. 
+- Colocar intruções em uma sequência lógica para chegar em um determinado resultado 
+
+Algoritmo??
+- Uma sequência lógica
+    para logar um usuário: 
+        - login com email e senha 
+        - clicar no botão entrar
+        - mude para status para logado
+        - exibir uma mensagem de bem vindo
+
+hardware e software
+
+Linguagem de máquina: aquela compreendida pelo computador
+- binário(bits) 0 e 1
+
+Linguagens de baixo nível: mais perto da máquina
+    - Assembly
+
+Linguagem de alto nível: mais perto do humano
+    - São as linguagem que são mais compreendidas pelo ser humano.
+    EX: javascript, pythom, c++, php ...
+
+-> nossa máquina não entende linguagem de alto nível.
+-> precisa converter nosso código fonte para uma maneira que a máquina entende
+    existe: compilação e interpretação
+
+compilado -> gera arquivos que a máquina entende -> e usamos esse arquivo compilado para poder executar.
+    uma linguagem: C++
+
+interpretação: faz a traduçao do código em alto nível e já executa. pra isso precisamos de um interpretador. 
+    uma linguagem: javascript
