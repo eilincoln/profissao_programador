@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <form action="./index.html">
+        <label for="email">Email</label>
+        <input style="display: block;" id="email" type="email" name="qualquer_coisa" placeholder="Coloque um email válido aqui">
+
+        <br>
+
+        <label for="password">Senha</label>
+        <input style="display: block;" id="password" type="password" name="qualquer_coisa" placeholder="">
+
+        <br>
+
+        <label for="text">Text</label>
+        <input style="display: block;" id="text" type="text" name="qualquer_coisa" placeholder="digite um texto">
+
+        <br>
+
+        <label for="checkbox">checkbox</label>
+        <input type="checkbox" style="display: block;" id="checkbox" name="checkbox">
+
+        <label for="masculino">Masculino</label>
+        <input type="radio" class="radio_m" name="sexo" value="masculino">
+
+        <label for="feminino">Feminino</label>
+        <input type="radio" class="radio" name="sexo" value="feminino">
+
+        <label for="outro">outro</label>
+        <input type="radio" class="radio" name="sexo" value="outro">
+
+        <br><br>
+
+        <label for="renge">Renge</label>
+        <input type="range" style="display: block;" id="range" name="range">
+
+        <br>
+
+        <label for="numbers">Numeros</label>
+        <input type="number" style="display: block;" id="number" name="number">
+
+        <br>
+
+        <label for="file">Arquivos</label>
+        <input type="file" style="display: block;" id="file" name="file">
+
+        <br>
+
+        <label for="date">Data</label>
+        <input type="date" style="display: block;" id="date" name="date">
+
+        <br>
+
+        <label for="seclect">Dias da Semana</label>
+        <select name="dias_da_semana" id="dias_da_semana">
+            <option value="domingo">Domingo</option>
+            <option value="sabado">Sábado</option>
+            <option value="segunda">segunda</option>
+            <option value="terca">Terça</option>
+            <option value="quarta">Quarta</option>
+            <option value="quinta">quinta</option>
+            <option value="sexta">sexta</option>
+        </select>
+
+        <br><br>
+
+        <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
+
+        <br><br>
+
+        <button>Enviar</button>
+    </form>
+
+</body>
+</html>
